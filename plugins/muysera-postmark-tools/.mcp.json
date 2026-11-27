@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "postmark": {
+      "command": "npx",
+      "args": ["-y", "@activecampaign/postmark-mcp@2.1.1"],
+      "env": {
+        "POSTMARK_SERVER_TOKEN": "${POSTMARK_SERVER_TOKEN}",
+        "DEFAULT_SENDER_EMAIL": "${DEFAULT_SENDER_EMAIL}",
+        "DEFAULT_MESSAGE_STREAM": "${DEFAULT_MESSAGE_STREAM}",
+        "AGENT_LABEL": "claude-muysera"
+      }
+    }
+  }
+}

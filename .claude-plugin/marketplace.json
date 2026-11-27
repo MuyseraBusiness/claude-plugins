@@ -1,0 +1,33 @@
+{
+  "name": "muysera",
+  "description": "Muysera's Claude plugins: Postmark tools and Postmark's official skills.",
+  "owner": {
+    "name": "Muysera"
+  },
+  "plugins": [
+    {
+      "name": "muysera-postmark-skills",
+      "source": {
+        "source": "github",
+        "repo": "ActiveCampaign/postmark-skills",
+        "sha": "b8e0c5051b3ac1f3b9de55765d398dc7490d5858"
+      },
+      "strict": false,
+      "description": "Postmark's official agent skills from ActiveCampaign (MIT): sending, templates, webhooks, inbound, best practices.",
+      "license": "MIT",
+      "skills": [
+        "./",
+        "./postmark-send-email",
+        "./postmark-templates",
+        "./postmark-webhooks",
+        "./postmark-inbound",
+        "./postmark-email-best-practices"
+      ]
+    },
+    {
+      "name": "muysera-postmark-tools",
+      "source": "./plugins/muysera-postmark-tools",
+      "description": "Runs the official @activecampaign/postmark-mcp server (24 Postmark tools) with Muysera's safety rules."
+    }
+  ]
+}

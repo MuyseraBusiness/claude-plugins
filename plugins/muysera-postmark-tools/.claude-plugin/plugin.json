@@ -1,0 +1,8 @@
+{
+  "name": "muysera-postmark-tools",
+  "displayName": "Postmark Tools",
+  "version": "1.0.0",
+  "description": "Runs the official @activecampaign/postmark-mcp server (pinned 2.1.1) so Claude can use Postmark's 24 tools: templates, sending, delivery diagnostics, bounces, suppressions, stats and webhooks.",
+  "author": { "name": "Muysera" },
+  "license": "MIT"
+}
